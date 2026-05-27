@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Login</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+ 
+    body {
+      font-family: Georgia, serif;
+      background: #f5f4f0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+    }
+ 
+    .card {
+      background: #fff;
+      padding: 48px 40px;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 380px;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    }
+ 
+    h1 {
+      font-size: 1.6rem;
+      color: #1a1a1a;
+      margin-bottom: 6px;
+    }
+ 
+    .subtitle {
+      color: #888;
+      font-size: 0.9rem;
+      margin-bottom: 32px;
+    }
+ 
+    label {
+      display: block;
+      font-size: 0.82rem;
+      color: #555;
+      margin-bottom: 6px;
+      letter-spacing: 0.03em;
+    }
+ 
+    input {
+      width: 100%;
+      padding: 11px 14px;
+      border: 1.5px solid #ddd;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      color: #1a1a1a;
+      outline: none;
+      transition: border-color 0.2s;
+      margin-bottom: 20px;
+    }
+ 
+    input:focus {
+      border-color: #4a7c59;
+    }
+ 
+    .forgot {
+      display: block;
+      text-align: right;
+      font-size: 0.82rem;
+      color: #4a7c59;
+      text-decoration: none;
+      margin-top: -14px;
+      margin-bottom: 24px;
+    }
+ 
+    .forgot:hover {
+      text-decoration: underline;
+    }
+ 
+    button {
+      width: 100%;
+      padding: 12px;
+      background: #1a1a1a;
+      color: #fff;
+      border: none;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+ 
+    button:hover {
+      background: #333;
+    }
+ 
+    .signup {
+      text-align: center;
+      margin-top: 20px;
+      font-size: 0.85rem;
+      color: #888;
+    }
+ 
+    .signup a {
+      color: #4a7c59;
+      text-decoration: none;
+    }
+ 
+    .signup a:hover {
+      text-decoration: underline;
+    }
+    
+    button a{
+        color: white;
+        text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="card">
+    <h1>Welcome back</h1>
+    <p class="subtitle">Sign in to your account</p>
+ 
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="you@example.com" />
+ 
+    <label for="password">Password</label>
+    <input type="password" id="password" placeholder="••••••••" />
+ 
+    <a href="#" class="forgot">Forgot password?</a>
+ 
+    <button type="button"><a href="index.html">Sign in</a></button>
+ 
+    <p class="signup">Don't have an account? <a href="#">Sign up</a></p>
+  </div>
+ 
+</body>
+</html>
